@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(3, 57, 73);
+}
+.navegacion{
+    margin-left: 555px;
+    width:700px;
+    font-size: 5px;
+    font-weight: 700;
+}
+.container {
+    position: relative;
+}
+img {
+    margin-left: 265px; 
+    object-fit: cover;
+    margin-top: 60px;
+    object-position: left 1%; top: 25%;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color:  #4CAF50; 
+    color: black; 
+    border: 2px solid black;
+}
+.button1:hover {
+    background-color:white;
+    color: #4CAF50;
+}
+
+.titulo {
+    position: absolute;
+    color: white;
+    top: 1px;
+    left: 265px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.bajadatitulo{
+    margin-left: 265px;
+    width: 1000px;
+    color: rgb(164, 255, 74);
+    text-align: center;
+    padding: 1px;
+    font-size: 25px;
+    font-weight: 800;
+    border: 3px solid black;
+}
+
+.cuerpo{
+    margin-top: 10px;
+    margin-left: 380px;
+    max-width: 890px;
+}
+
+.h2subtitulo{
+    margin-left: 5px;
+    color: rgb(164, 255, 74);
+}
+
+.ptexto{
+    margin-left: 23px;
+    color: white;
+}
+
+
+.regla{
+    color: rgb(164, 255, 74);
+    font-weight: 800;
+}
+
+.cuerporegla{
+    color: rgb(164, 255, 74);
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 870px;
+}
+.campo3{
+    color: rgb(164, 255, 74);
+    float: left;
+    margin-left: 48px;
+
+    width: 870px;
+ }
+
+ .subbajadaregla{
+     color: white;
+     float: left;
+     margin-left: 138px;
+     margin-top: 15px;
+     width: 870px;
+     font-size: 20px;
+ }
+
+ .table, th, td{
+    margin-left: 26px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 17px;
+    font-weight: 500;
+     border: 1px solid  rgb(164, 255, 74);
+ }
+ .posicion{
+    color: white;
+    float: left;
+    width: 800px;
+
+}
+.izquierdo{
+    float: left;
+    margin-left: 45px;
+    width: 230px;
+    color: rgb(164, 255, 74);
+}
+
+.derecho{
+    float: left;
+    margin-left: 180px;
+    width: 230px;
+    color: rgb(164, 255, 74);
+}
+.MAPAS{
+    margin-left: 5px;
+    width: 790px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 25px;
+    font-weight: 800;
+    border: 3px solid rgb(164, 255, 74);
+
+}
+
+.registrocuerpo{
+    margin-top: 10px;
+    margin-left: 420px;
+    max-width: 890px;
+}
+
+.registroposicion{
+    color: white;
+    float: left;
+    width: 800px;
+
+}
+.registroizquierdo{
+    float: left;
+    margin-left: 10px;
+    width: 230px;
+
+}
+.registroderecho{
+    float: left;
+    margin-left: 50px;
+    width: 230px;
+}
+.registrocolor{
+    color: rgb(164, 255, 74);
+}
